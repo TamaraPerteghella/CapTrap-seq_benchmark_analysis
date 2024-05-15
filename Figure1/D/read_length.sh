@@ -1,6 +1,6 @@
 while read lab cap tmp sample
 do
-    path="./data/${lab}_${cap}_${tmp}_${sample}.gff.gz"
+    path="../../data/gff/${lab}_${cap}_${tmp}_${sample}.gff.gz"
     details=$(echo -e "$lab\t$cap\t$tmp\t$sample")
     if [ -f $path ]; then
         zcat $path | egrep -v "SIRVome_isoforms|ERCC" | awk -F"\t" -v OFS="\t" -v det="$details" '{ split($9, ids, "\""); print $5-$4, ids[2], det }'
