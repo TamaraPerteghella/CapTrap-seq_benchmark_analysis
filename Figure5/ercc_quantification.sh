@@ -2,7 +2,7 @@
 while read lab cap tmp sample
 do
     platform=$(echo $lab | awk -F'-' '{print $1}')
-    file=`echo ../../data/coverage/${lab}_${cap}_${tmp}_${sample}.gencode.coverage.tsv`  
+    file=`echo ../../data/coverage/lrgasp/${lab}_${cap}_${tmp}_${sample}.gencode.coverage.tsv`  
     fgrep -f ../../data/sirvs_mapping/HS.erccSpikein.ids.list $file | while read text cap sf labx chr strt stp ID count 
     do 
         echo -e "$labx\t$platform\t$ID\t$count\tERCC\t$lab" 
