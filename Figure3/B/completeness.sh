@@ -22,4 +22,4 @@ done < ../samples.benchmark.technologies.human.tsv
 while read lab cap tmp sample
 do
     cat ${lab}_${cap}_${tmp}_${sample}.count.tsv
-done < ../samples.benchmark.technologies.tsv > human.support.stats.tsv
+done < ../samples.benchmark.technologies.tsv > technology.support.stats.tsv
