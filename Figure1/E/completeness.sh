@@ -17,9 +17,9 @@ do
     fi
     Rscript completeness_collate.R $original ${lab}_${cap}_${tmp}_${sample}.crossCAGE.bed ${lab}_${cap}_${tmp}_${sample}.polyAreads.refined.list ${lab}_${cap}_${tmp}_${sample}.sirvs.bed
 
-done < ../../samples.benchmark.human.tsv
+done < ../samples.benchmark.human.tsv
 
 while read lab cap tmp sample
 do
     cat ${lab}_${cap}_${tmp}_${sample}.count.tsv
-done < ../../samples.benchmark.human.tsv > human.support.stats.tsv
+done < ../samples.benchmark.human.tsv > human.support.stats.tsv
