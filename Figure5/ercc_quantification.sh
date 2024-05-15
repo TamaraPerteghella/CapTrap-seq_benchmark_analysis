@@ -1,3 +1,4 @@
+#!/bin/bash
 while read lab cap tmp sample
 do
     platform=$(echo $lab | awk -F'-' '{print $1}')
