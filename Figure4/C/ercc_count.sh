@@ -18,7 +18,7 @@ done < ../samples.benchmark.sirvs.tsv > human.spikein.read.count.tsv
 
 cat human.spikein.read.count.tsv | while read sample platform ERCC count tmp lab cap 
 do
-    cat /users/rg/buszczynska/Projects/RNA.capture/phase3/spikein.concentr/ERCC.concs | awk -v spike=$ERCC '$2==spike'| while read nb spikeIn subgroup conc1 conc2 FC sth
+    cat ../../data/sirvs_mappings/ERCC.concs | awk -v spike=$ERCC '$2==spike'| while read nb spikeIn subgroup conc1 conc2 FC sth
     do
        echo -e "$sample\t$platform\t$ERCC\t$count\t$conc1\tERCC\t$lab\t$cap"
     done
