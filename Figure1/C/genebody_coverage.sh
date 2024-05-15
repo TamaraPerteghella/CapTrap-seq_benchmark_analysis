@@ -1,6 +1,6 @@
 #!/bin/bash
-bw="./*bw"
-annotation="./data/human.bed"
+bw="../../data/bw/*bw"
+annotation="../../data/human.bed"
 output="human_brain.readProfileMatrix.tsv.gz"
 out_plot="human_brain.readProfileMatrix.density.png" 
 
