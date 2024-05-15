@@ -1,5 +1,5 @@
 #!/bin/bash
-bw="../../data/bw/*bw"
+bw="../../data/bw/human/*bw"
 annotation="../../data/human.bed"
 output="human_brain.readProfileMatrix.tsv.gz"
 out_plot="human_brain.readProfileMatrix.density.png" 
