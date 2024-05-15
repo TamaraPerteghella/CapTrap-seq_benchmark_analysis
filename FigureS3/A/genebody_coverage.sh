@@ -1,5 +1,5 @@
-#!/bin/bash
-bw="../../data/bw/*bw"
+/#!/bin/bash
+bw="../../data/bw/mouse/*bw"
 annotation="../../data/mouse.bed"
 output="mouse_brain.readProfileMatrix.tsv.gz"
 out_plot="mouse_brain.readProfileMatrix.density.png" 
