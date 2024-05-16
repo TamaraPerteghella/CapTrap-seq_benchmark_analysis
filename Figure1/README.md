@@ -1,4 +1,5 @@
 ## Figure 1. 
+![plot](./Figure 1.png)
 # Full-length transcript annotation using CapTrap-seq and other library preparation methods. 
 **(A)** CapTrap-seq experimental workflow. Gray boxes highlight the four main steps of full-length (FL) cDNA library construction: Anchored dT Poly(A)+, CAP-trapping[^23][^24][^25][^26], CAP and Poly(A) dependent Linker Ligation, and FL-cDNA library enrichment as described in the text. <br>
 **(B)** Two adult human complex transcriptomic samples, brain and heart, were used to perform the cross-protocol and cross-platform comparisons to assess the quality of CapTrap-seq. The horizontal green line indicates the cross-protocol comparisons, including four different sequencing library preparation methods: CapTrap-seq, directRNA®, TeloPrime® and SMARTer®. Whereas, the vertical blue line shows cross-platform comparison using CapTrap-seq in combination with three long-read sequencing platforms: ONT, PacBio Sequel I and Sequel II. <br>
