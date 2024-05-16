@@ -1,0 +1,6 @@
+## ![Figure S1](FigureS1.pdf). 
+# Read Quality Control for the human brain sample sequenced on ONT using different library preparation methods. 
+**(A)** The number of errors per mapped bases (error rate) across sequencing library preparation protocols (CapTrap-seq, directRNA®, TeloPrime® and SMARTer®) in the human brain sample. Colors denote the type of error: deletions (black), insertions (red), mismatches (orange); <br>
+**(B-C)** metrics for directRNA ONT sequencing in the human brain and heart samples as described in figure 1D and S1A. 
+**(D)** The GENCODE gene biotype detection by ONT sequencing of four tested libraries. The stacked bar plots report the percentage of raw read overlaps with annotated GENCODE genes (v24) of given biotype. Colors denote different GENCODE gene biotypes: protein-coding genes (orange), ribosomal RNAs (light gray), pseudogenes (pink), miscellaneous RNA (green), miRNAs (olive green), non-exonic (dark blue), lncRNA (sky blue). The proportion of raw reads mapping to rRNA along with absolute raw read numbers in parenthesis is given below each bar plot; <br>
+**(E)** The proportion of nucleotides covering different genomic partitions. Colors highlight different region types: exon of pseudogene (green), intron (pink), UTR (blue), intergenic (orange), exon of noncoding transcript (navy) and CDS (yellow).
