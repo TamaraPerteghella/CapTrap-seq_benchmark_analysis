@@ -1,3 +1,3 @@
-# ![Figure 2](./Figure2.pdf). 
-## Identification of complete structures of annotated protein-coding and non-protein coding transcripts in the human genome. 
+## ![Figure 2](./Figure2.pdf). 
+# Identification of complete structures of annotated protein-coding and non-protein coding transcripts in the human genome. 
 **(A-B)** Transcripts identified for the PRCC protein coding gene (A) and for the MEG3 lncRNA gene (B) in human brain samples. Colors denote the library preparation method: orange for SMARTer, pink for TeloPrime and blue for CapTrap. The GENCODE models (v43) are shown in navy and green for protein-coding and lncRNA genes/transcripts, respectively. The bigwig files derived from the corresponding long-read RNA-seq data are shown below each transcript. All bigwig files are shown using signal tracks displayed in the “full” mode in the UCSC genome browser.
