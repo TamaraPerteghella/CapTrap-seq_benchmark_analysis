@@ -1,6 +1,6 @@
 ## Figure 1. 
 <p align="center">
-  <img src="y./Figure1.pdf">
+  <img src="./Figure1.pdf">
 </p>
 
 ![plot](./Figure1.pdf)
