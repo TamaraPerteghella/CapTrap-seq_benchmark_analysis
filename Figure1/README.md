@@ -1,4 +1,8 @@
 ## Figure 1. 
+<p align="center">
+  <img src="y./Figure1.pdf">
+</p>
+
 ![plot](./Figure1.pdf)
 # Full-length transcript annotation using CapTrap-seq and other library preparation methods. 
 **(A)** CapTrap-seq experimental workflow. Gray boxes highlight the four main steps of full-length (FL) cDNA library construction: Anchored dT Poly(A)+, CAP-trapping[^23][^24][^25][^26], CAP and Poly(A) dependent Linker Ligation, and FL-cDNA library enrichment as described in the text. <br>
