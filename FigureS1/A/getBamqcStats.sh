@@ -7,7 +7,7 @@ echo -e "seqTech\tcapDesign\tsizeFrac\tsampleRep\terrorCategory\terrorRate" > hu
 
 while read lab cap tmp sample
 do
-    reads="../../data/qc_results/${lab}_${cap}_${tmp}_${sample}/genome_results.txt"
+    reads="../../data/qc_results/${lab}_${cap}_${tmp}_${sample}.genome_results.txt"
     qualimapReportToTsv.pl $reads | cut -f2,3 | grep -v globalErrorRate | sed 's/PerMappedBase//' | awk -v t=$lab -v c=$cap -v si=$tmp -v b=$sample '{{print t"\t"c"\t"si"\t"b"\t"$1"\t"$2}}' > ${lab}_${cap}_${tmp}_${sample}.sequencingError.stats.tsv
     sort ${lab}_${cap}_${tmp}_${sample}.sequencingError.stats.tsv >> human.ntCoverageByGenomePartition.tsv
-done
+done  < ../../Figure1/samples.benchmark.human.tsv
