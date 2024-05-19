@@ -20,4 +20,4 @@ do
     done > ${lab}_${cap}_${tmp}_${sample}.ntCoverageByGenomePartition.stats.tsv
 
     cat ${lab}_${cap}_${tmp}_${sample}.ntCoverageByGenomePartition.stats.tsv | sort >> human.ntCoverageByGenomePartition.tsv
-done
+done  < ../../Figure1/samples.benchmark.human.tsv
