@@ -18,7 +18,7 @@ script="https://raw.githubusercontent.com/guigolab/LyRic/d304504/utils/sirvDetec
 wget "$script"
 chmod +x sirvDetectionStats.pl
 
-echo -e "seqTech\tcapDesign\tsizeFrac\tsampleRep\tSIRVid\tlength\tconcentration\tdetectionStatus" > mouse.spikeIns.sirvome.tsv
+echo -e "seqTech\tcapDesign\tsizeFrac\tsampleRep\tSIRVid\tlength\tconcentration\tdetectionStatus" > technology.spikeIns.sirvome.tsv
 
 while read lab cap tmp sample
 do
@@ -29,6 +29,6 @@ do
     echo -e "$lab\t$cap\t$tmp\t$sample\t$id\t$l\t$c\t$ca";
   done > ${lab}_${cap}_${tmp}_${sample}.out
   
- sort ${lab}_${cap}_${tmp}_${sample}.out >> mouse.spikeIns.sirvome.tsv
+ sort ${lab}_${cap}_${tmp}_${sample}.out >> technology.spikeIns.sirvome.tsv
   
 done < ../samples.technology.sirvs.tsv
