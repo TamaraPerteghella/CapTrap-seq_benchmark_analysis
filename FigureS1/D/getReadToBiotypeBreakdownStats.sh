@@ -1,4 +1,4 @@
-ann="../../data/human.gencode.collapsed.simplified_biotypes.gtf"
+ann="../../data/HpreCap.gencode.collapsed.simplified_biotypes.gtf"
 output="all.readToBiotypeBreakdown.woSpikeIns.stats.tsv"
 echo -e "seqTech\tcapDesign\tsizeFrac\tsampleRep\tbiotype\treadOverlapsCount\treadOverlapsPercent" > $output
 
