@@ -1,5 +1,5 @@
 #!/bin/bash
-annot="../../data/sirvs_mapping/MpreCap.SIRVs.gff"
+annot="../../data/sirvs_mapping/HpreCap.SIRVs.gff"
 script="https://raw.githubusercontent.com/guigolab/LyRic/d304504/utils/simplifyGffCompareClasses.pl"
 wget "$script"
 chmod +x simplifyGffCompareClasses.pl
@@ -11,7 +11,7 @@ do
   gffcompare -o ${lab}_${cap}_${tmp}_${sample} -r $annot ${lab}_${cap}_${tmp}_${sample}.tmp
   cat ${lab}_${cap}_${tmp}_${sample}.tracking | simplifyGffCompareClasses.pl - > ../../data/sirvs_mapping/gffcompare/${lab}_${cap}_${tmp}_${sample}.reads.vs.SIRVs.simple.tsv
   mv ${lab}_${cap}_${tmp}_${sample}.refmap ${lab}_${cap}_${tmp}_${sample}.reads.vs.SIRVs.refmap
-done  < ../samples.benchmark.sirvs.mouse.tsv
+done  < ../samples.technology.sirvs.tsv
 
 
 script="https://raw.githubusercontent.com/guigolab/LyRic/d304504/utils/sirvDetectionStats.pl"
@@ -31,4 +31,4 @@ do
   
  sort ${lab}_${cap}_${tmp}_${sample}.out >> mouse.spikeIns.sirvome.tsv
   
-done < ../samples.benchmark.sirvs.mouse.tsv
+done < ../samples.technology.sirvs.tsv
