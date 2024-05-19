@@ -14,12 +14,12 @@ do
             echo -e "$sample\t$platform\t$ID\t$count\tERCC\t$lab\t$cap"
         done
     fi
-done < ../samples.benchmark.sirvs.mouse.tsv > mouse.spikein.read.count.tsv
+done < ../samples.technology.sirvs.tsv > technology.spikein.read.count.tsv
 
-cat mouse.spikein.read.count.tsv | while read sample platform ERCC count tmp lab cap 
+cat technology.spikein.read.count.tsv | while read sample platform ERCC count tmp lab cap 
 do
     cat ../../data/sirvs_mapping/ERCC.concs | awk -v spike=$ERCC '$2==spike'| while read nb spikeIn subgroup conc1 conc2 FC sth
     do
        echo -e "$sample\t$platform\t$ERCC\t$count\t$conc1\tERCC\t$lab\t$cap"
     done
-done > mouse.spikein.conc.read.count.updtd.tsv
+done > technology.spikein.conc.read.count.updtd.tsv
