@@ -1,4 +1,4 @@
-## ![Figure S7.](FigureS7.pdf) 
+## ![Supplementary Figure 7.](SupplementaryFigure7.pdf) 
 # Benchmark of  CapTrap-seq using LRGASP samples. 
 **(A)** Graphical summary of LRGASP samples and protocols selected for the CapTrap-seq benchmark; <br> 
 **(B)** Length distribution for all mapped reads and <br>
