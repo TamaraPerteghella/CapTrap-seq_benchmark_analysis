@@ -1,4 +1,4 @@
-## ![Figure S4.](FigureS4.pdf) 
+## ![Supplementary Figure 4.](SupplementaryFigure4.pdf) 
 # Mapping statistics for CapTrap-seq across different sequencing platforms in human brain and heart. 
 **(A)** The number of errors per mapped bases (error rate) for CapTrap-seq for ONT, PacBioSI and PacBioSII sequencing platforms. The color code as specified in Figure S1C; <br> 
 **(B)** Proportion of poly(A) (green) and non-poly(A) (red) ONT and PacBio (SI and SII) reads; <br>
