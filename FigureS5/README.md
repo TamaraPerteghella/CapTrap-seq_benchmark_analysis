@@ -1,4 +1,4 @@
- ## ![Figure S5](FigureS5.pdf). 
+ ## ![Supplementary Figure 5](SupplementaryFigure5.pdf). 
  # Mapping statistics for CapTrap-seq across different sequencing platforms in human brain and heart. 
  **(A)** Read aggregate deptools[^44] profiles along the body of annotated GENCODE genes for the CapTrap-seq combined with different long-read sequencing platforms; <br>
  **(B)** Cumulative transcript curve showing the proportion of mapped reads (Y axis) captured by the top n more expressed genes (x-axis). The pink area represents the proportion of reads captured by the top ten gene expressors; <br>
