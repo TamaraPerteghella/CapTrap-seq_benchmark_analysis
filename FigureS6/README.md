@@ -1,4 +1,4 @@
-## ![Figure S6.](FigureS6.pdf) 
+## ![Supplementary Figure 6.](SupplementaryFigure6.pdf) 
 # Capping of SIRVs and ERCC controls across tissues and platforms. 
 **(A)** Experimental design for unbiased (92 ERCC spike-ins) CapTrap-seq experiments using the capped synthetic ERCC and SIRV controls; <br>
 **(B)** Spearman Correlation between input RNA concentration and raw read counts for ERCC spike-ins in the brain and heart samples. The individual data points correspond to 92 synthetic ERCC RNA sequences (for further details see Figure 4); <br>
