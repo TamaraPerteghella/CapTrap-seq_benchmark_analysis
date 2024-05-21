@@ -1,1 +1,1 @@
-Filtered [polyA signals](https://public-docs.crg.es/rguigo/Data/scarbonell/captrap_paper_files/polya/polyafilter/).
+Filtered [polyA signals](https://public-docs.crg.es/rguigo/Data/scarbonell/captrap_paper_files/polya/polyafilter/); list of polyA reads excluding those mapping to SIRVs and ERCCs, as well as those corresponding to reads whereby the polyA and the splice-junction provided different hints on the mapping strand.
