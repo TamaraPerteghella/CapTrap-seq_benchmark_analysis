@@ -1,4 +1,4 @@
-## ![Figure S1](FigureS1.pdf). 
+## ![Supplementary Figure 1](SupplementaryFigure1.pdf). 
 # Read Quality Control for the human brain sample sequenced on ONT using different library preparation methods. 
 **(A)** The number of errors per mapped bases (error rate) across sequencing library preparation protocols (CapTrap-seq, directRNA®, TeloPrime® and SMARTer®) in the human brain sample. Colors denote the type of error: deletions (black), insertions (red), mismatches (orange); <br>
 **(B-C)** metrics for directRNA ONT sequencing in the human brain and heart samples as described in figure 1D and S1A. <br>
