@@ -1,4 +1,4 @@
-## ![Figure S3.](FigureS3.pdf)
+## ![Supplementary Figure 3.](SupplementaryFigure3.pdf)
 # CapTrap-seq and Teloprime performance in mouse brain RNA sample sequenced on ONT.
 **(A)** Read aggregate deptools[^44] profiles along the body of annotated GENCODE genes; <br>
 **(B)** Length distribution for all mapped reads and <br> 
